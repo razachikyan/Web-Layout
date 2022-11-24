@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+
+/* fonts */
+@font-face {
+    font-family: 'Muller';
+    src: url('../assets/fonst/MullerRegular.woff2') format('woff2'),
+        url('../assets/fonst/MullerRegular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../assets/fonst/MullerMedium.woff2') format('woff2'),
+        url('../assets/fonst/MullerMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../assets/fonst/MullerRegularItalic.woff2') format('woff2'),
+        url('../assets/fonst/MullerRegularItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../assets/fonst/MullerBold.woff2') format('woff2'),
+        url('../assets/fonst/MullerBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../assets/fonst/MullerLightItalic.woff2') format('woff2'),
+        url('../assets/fonst/MullerLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Global */
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+.section__container,
+.header__container,
+.footer__container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 94px 10px;
+}
+
+/* Header */
